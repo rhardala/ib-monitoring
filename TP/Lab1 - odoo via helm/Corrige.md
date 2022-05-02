@@ -51,7 +51,7 @@ Une fois déployé, vous  pouvez obtenir les informations de connexions en tapan
 Dans mon cas, les credentials sont : 
 * Odoo URL: http://10.0.2.15:30069/
 
-  !!! - Attention a l'ip fournie, il faudra changer l'ip 10.0.2.15 par l'ip de l'intereface enp0s8,mais le port reste pareil, le **30069** 
+  !!! - Attention a l'ip fournie, il faudra changer l'ip **10.0.2.15** par l'ip de l'intereface enp0s8,mais le port reste pareil, le **30069**
 * Email : user@example.com
 * Password: mzxaabhNbf
 
