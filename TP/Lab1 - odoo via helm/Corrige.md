@@ -23,10 +23,10 @@ Dans un premier temps, nous allons créer un répertoire de travail qui contiend
 [vagrant@minikube ~]$ mkdir -p ~vagrant/lab1 
 [vagrant@minikube ~]$ cd ~vagrant/lab1
 [vagrant@minikube lab1]$ helm repo add bitnami https://charts.bitnami.com/bitnami
-[vagrant@minikube lab1]$ helm ls
+[vagrant@minikube lab1]$ helm repo ls
 [vagrant@minikube lab1]$ helm repo update
 [vagrant@minikube lab1]$ helm search repo odoo
-[vagrant@minikube lab1]$ vi values.yaml
+[vagrant@minikube lab1]$ vi values.yml
 [vagrant@minikube lab1]$ helm install odoo bitnami/odoo -f values.yml 
 ```
 L'output est le suivant, et il faudra patienter que le déploiement se termine correctement: 
@@ -50,8 +50,6 @@ Une fois déployé, vous  pouvez obtenir les informations de connexions en tapan
 ```  
 Dans mon cas, les credentials sont : 
 * Odoo URL: http://10.0.2.15:30069/
-
-  !!! - Attention a l'ip fournie, il faudra changer l'ip **10.0.2.15** par l'ip de l'intereface enp0s8,mais le port reste pareil, le **30069**
 * Email : user@example.com
 * Password: mzxaabhNbf
 
