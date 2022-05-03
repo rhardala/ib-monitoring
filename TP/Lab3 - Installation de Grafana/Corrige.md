@@ -32,23 +32,18 @@ L'interface de Grafana est la suivante :
 Et une fois loggé, on a ceci : 
 ![Grafana welcome](images/grafana_welcome.PNG)
 
-### 3 - Configurez la datasource pour qu’elle pointe sur la target de Prometheus
-
-L'url du datasource est :  http://prometheus-service.monitoring.svc:8090
-
+3 - Configurez la datasource pour qu’elle pointe sur la target de Prometheus
 On a ceci : 
+l'url du datasource est :  http://prometheus-service.monitoring.svc:8090
 ![data source ](images/add_source.PNG)
 
 ![data source 2](images/add_source2.PNG)
 
 ![data source 3](images/add_source3.PNG)
 
-### 4 - Importez le dashboard Prometheus d’id 3662
 
-L'url de ce dashboard est [celle ci](https://grafana.com/grafana/dashboards/3662)
-VOus pouvez vous amuser à parcourir le site de Grafana pour voir d'autres dashboard disponibles)
 
-### 5 - Que constatez-vous ?
-On constate des courbes dans Grafana, les données sont plus exploitables
 
-### 6 - Si vous avez des métriques qui s’affichent, alors felicitation, votre installation de Prometheus et Grafana est terminée !
+4 - Importez le dashboard Prometheus d’id 3662
+5 - Que constatez-vous ?
+6 - Si vous avez des métriques qui s’affichent, alors felicitation, votre installation de Prometheus et Grafana est terminée !
