@@ -27,6 +27,7 @@ On configure l'alarming
 ![Slack notif Integration](images/grafana_5.PNG)
 Dans l'alarming, on configure le message à envoyer et à quel channel
 ![Slack notif Integration](images/grafana_6.PNG)
+
 En suite on sauvegarde
 ![Slack notif Integration](images/grafana_8.PNG)
 On a à présent le nouveau graphe dans le dashboard qui apparait
